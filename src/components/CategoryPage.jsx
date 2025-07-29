@@ -11,7 +11,7 @@ const CategoryPage = () => {
 
   useEffect(() => {
     fetchCategoryData();
-  }, []);
+  }, [])
 
   const fetchCategoryData = async () => {
     const formattedSlug = slug.trim().replace(" ", "-");

@@ -11,7 +11,7 @@ import Contact from "../components/Contact";
 
 const AboutUs = lazy(() => import("../components/AboutUs"));
 
-export const appRouter = createBrowserRouter([
+const routes = [
   {
     path: "/",
     element: <App />,
@@ -36,4 +36,6 @@ export const appRouter = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
     ],
   },
-]);
+];
+
+export const appRouter = createBrowserRouter(routes, { basename: "/NexCart" });

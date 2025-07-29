@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { useSelector } from "react-redux";
-import CartContext from "../utils/cartContext";
+import CartContext from "../utils/CartContext";
 import { THEME_CLASSES } from "../utils/constants";
 import OrderSummary from "./OrderSummary";
 import ShippingInputBox from "./ShippingInputBox";
@@ -20,15 +20,6 @@ const CheckoutPage = () => {
 
   const [hasOrdered, setHasOrdered] = useState(false);
   const [errors, setErrors] = useState({});
-
-  const subtotal = cartItems?.reduce(
-    (total, item) => total + item.price * (item.quantity || 1),
-    0
-  );
-
-  const shipping = subtotal > 0 ? 50 : 0;
-  const tax = subtotal * 0.1;
-  const total = subtotal + shipping + tax;
 
   const handleChange = (e) => {
     const { name, value } = e.target;

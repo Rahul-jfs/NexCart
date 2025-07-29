@@ -11,7 +11,6 @@ const Header = () => {
   const { cartItems } = contextData;
 
   const mode = useSelector((store) => store.theme.mode);
-  console.log(mode);
 
   const dispatch = useDispatch();
 

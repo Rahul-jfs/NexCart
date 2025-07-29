@@ -1,75 +1,75 @@
 export const cardImages = [
   {
-    bgImg: "/pictures/beauty.jpg",
+    bgImg: "NexCart/public/pictures/beauty.jpg",
   },
   {
-    bgImg: "/pictures/fragrances.jpg",
+    bgImg: "NexCart/public/pictures/fragrances.jpg",
   },
   {
-    bgImg: "/pictures/furniture.jpg",
+    bgImg: "NexCart/public/pictures/furniture.jpg",
   },
   {
-    bgImg: "/pictures/groceries.jpg",
+    bgImg: "NexCart/public/pictures/groceries.jpg",
   },
   {
-    bgImg: "/pictures/home_decoration.jpg",
+    bgImg: "NexCart/public/pictures/home_decoration.jpg",
   },
   {
-    bgImg: "/pictures/kitchen_accessories.jpg",
+    bgImg: "NexCart/public/pictures/kitchen_accessories.jpg",
   },
   {
-    bgImg: "/pictures/laptops.jpg",
+    bgImg: "NexCart/public/pictures/laptops.jpg",
   },
   {
-    bgImg: "/pictures/mens_shirts.jpg",
+    bgImg: "NexCart/public/pictures/mens_shirts.jpg",
   },
   {
-    bgImg: "/pictures/mens_shoes.jpg",
+    bgImg: "NexCart/public/pictures/mens_shoes.jpg",
   },
   {
-    bgImg: "/pictures/mens_watches.jpg",
+    bgImg: "NexCart/public/pictures/mens_watches.jpg",
   },
   {
-    bgImg: "/pictures/mobile_accessories.jpg",
+    bgImg: "NexCart/public/pictures/mobile_accessories.jpg",
   },
   {
-    bgImg: "/pictures/motorcycle.jpg",
+    bgImg: "NexCart/public/pictures/motorcycle.jpg",
   },
   {
-    bgImg: "/pictures/skin_care.jpg",
+    bgImg: "NexCart/public/pictures/skin_care.jpg",
   },
   {
-    bgImg: "/pictures/smartphones.jpg",
+    bgImg: "NexCart/public/pictures/smartphones.jpg",
   },
   {
-    bgImg: "/pictures/sports_accessories.jpg",
+    bgImg: "NexCart/public/pictures/sports_accessories.jpg",
   },
   {
-    bgImg: "/pictures/sunglasses.jpg",
+    bgImg: "NexCart/public/pictures/sunglasses.jpg",
   },
   {
-    bgImg: "/pictures/tablets.jpg",
+    bgImg: "NexCart/public/pictures/tablets.jpg",
   },
   {
-    bgImg: "/pictures/tops.jpg",
+    bgImg: "NexCart/public/pictures/tops.jpg",
   },
   {
-    bgImg: "/pictures/vehicle.jpg",
+    bgImg: "NexCart/public/pictures/vehicle.jpg",
   },
   {
-    bgImg: "/pictures/womens_bags.jpg",
+    bgImg: "NexCart/public/pictures/womens_bags.jpg",
   },
   {
-    bgImg: "/pictures/womens_dresses.jpg",
+    bgImg: "NexCart/public/pictures/womens_dresses.jpg",
   },
   {
-    bgImg: "/pictures/womens_jewellery.jpg",
+    bgImg: "NexCart/public/pictures/womens_jewellery.jpg",
   },
   {
-    bgImg: "/pictures/womens_shoes.jpg",
+    bgImg: "NexCart/public/pictures/womens_shoes.jpg",
   },
   {
-    bgImg: "/pictures/womens_watches.jpg",
+    bgImg: "NexCart/public/pictures/womens_watches.jpg",
   },
 ];
 

@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
     rating,
   } = product;
 
-  const { setCartItem, cartItems } = useContext(CartContext);
+  const { setCartItem } = useContext(CartContext);
 
   const handleAddToCart = (product) => {
     setCartItem((prevItems) => {
@@ -35,8 +35,6 @@ const ProductCard = ({ product }) => {
       return [...prevItems, { ...product, quantity: 1 }];
     });
   };
-
-  console.log(cartItems);
 
   const mode = useSelector((store) => store.theme.mode);
 

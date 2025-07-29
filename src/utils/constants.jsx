@@ -2,76 +2,76 @@ const BASE = import.meta.env.BASE_URL;
 
 export const cardImages = [
   {
-    bgImg: `${BASE}/NexCart/public/pictures/beauty.jpg`,
+    bgImg: `${BASE}/pictures/beauty.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/fragrances.jpg`,
+    bgImg: `${BASE}/pictures/fragrances.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/furniture.jpg`,
+    bgImg: `${BASE}/pictures/furniture.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/groceries.jpg`,
+    bgImg: `${BASE}/pictures/groceries.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/home_decoration.jpg`,
+    bgImg: `${BASE}/pictures/home_decoration.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/kitchen_accessories.jpg`,
+    bgImg: `${BASE}/pictures/kitchen_accessories.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/laptops.jpg`,
+    bgImg: `${BASE}/pictures/laptops.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/mens_shirts.jpg`,
+    bgImg: `${BASE}/pictures/mens_shirts.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/mens_shoes.jpg`,
+    bgImg: `${BASE}/pictures/mens_shoes.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/mens_watches.jpg`,
+    bgImg: `${BASE}/pictures/mens_watches.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/mobile_accessories.jpg`,
+    bgImg: `${BASE}/pictures/mobile_accessories.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/motorcycle.jpg`,
+    bgImg: `${BASE}/pictures/motorcycle.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/skin_care.jpg`,
+    bgImg: `${BASE}/pictures/skin_care.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/smartphones.jpg`,
+    bgImg: `${BASE}/pictures/smartphones.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/sports_accessories.jpg`,
+    bgImg: `${BASE}/pictures/sports_accessories.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/sunglasses.jpg`,
+    bgImg: `${BASE}/pictures/sunglasses.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/tablets.jpg`,
+    bgImg: `${BASE}/pictures/tablets.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/tops.jpg`,
+    bgImg: `${BASE}/pictures/tops.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/vehicle.jpg`,
+    bgImg: `${BASE}/pictures/vehicle.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/womens_bags.jpg`,
+    bgImg: `${BASE}/pictures/womens_bags.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/womens_dresses.jpg`,
+    bgImg: `${BASE}/pictures/womens_dresses.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/womens_jewellery.jpg`,
+    bgImg: `${BASE}/pictures/womens_jewellery.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/womens_shoes.jpg`,
+    bgImg: `${BASE}/pictures/womens_shoes.jpg`,
   },
   {
-    bgImg: `${BASE}/NexCart/public/pictures/womens_watches.jpg`,
+    bgImg: `${BASE}/pictures/womens_watches.jpg`,
   },
 ];
 

@@ -1,0 +1,56 @@
+---------------------------To reflect in the deployment-------------------------------
+
+we have to push the code to git using below command
+    >git add .
+    >git commit -m "message"
+    >git push origin main
+
+Now to Build your app (to generate the production-ready files)/ (to create optimized files in dist/):
+    >npm run build
+Deploy the built files to GitHub Pages(Push the dist/ folder to gh-pages branch for GitHub Pages):
+    >npm run deploy
+
+--------------------------------------------------------------------------------------------
+
+
+---------------------------What import.meta.env.BASE_URL does-------------------------------
+
+In Vite, import.meta.env.BASE_URL is automatically set based on the base you specify in vite.config.js:
+
+    // vite.config.js
+    export default defineConfig({
+        base: '/NexCart/',
+        plugins: [react()],
+    });
+
+    1. In development (vite dev), this will be '/'
+
+    2. In production (vite build), this will be '/NexCart/'
+
+    bgImg: '/pictures/beauty.jpg' // fine in dev, breaks in production
+    bgImg: '/NexCart/pictures/beauty.jpg' // fine in prod, breaks in dev
+
+    bgImg: `${import.meta.env.BASE_URL}pictures/beauty.jpg` //This works everywhere:
+
+
+
+--------------------------------------------------------------------------------------------
+
+
+
+now when i am on the https://rahul-jfs.github.io/NexCart/ and when i go to about page it loads the https://rahul-jfs.github.io/NexCart/about and if i refresh the page why is it not loading the about page but giving 404 error?
+
+This is because you're now running into a known limitation of GitHub Pages when using React Router (or any client-side routing).
+
+When you go to:
+    -https://rahul-jfs.github.io/NexCart/about
+    -The route works within your app via React Router (<Link />, etc.)
+    - But when you refresh the page, the browser asks GitHub Pages directly for /NexCart/about
+    -GitHub Pages doesn’t know about your routes, so it returns a 404
+
+✅ Solution
+You need to configure GitHub Pages to always serve index.html for unknown routes — this way, React Router takes over and handles the route like /about.
+
+But GitHub Pages has no built-in support for SPA routing fallback. So you have to use a workaround.
+
+

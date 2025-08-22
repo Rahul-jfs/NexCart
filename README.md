@@ -4,7 +4,8 @@
 Live URL: https://rahul-jfs.github.io/NexCart/
 
 Tech Stack: React, React Router, Redux, Tailwind CSS, localStorage
-Highlights:
+
+# Highlights:
 
 •	Built a responsive product listing interface with dynamic category-based routing using react-router.
 
